@@ -1,38 +1,131 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+#app {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: green;
+    color: white;
   }
+#add-recipient{
+    width: 25vw;
+    height: 6vh;
+    font-weight: 500;
+    background-color: green;
+    border-color: green;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    font-size: calc(1vh + 5px);
 }
+#connect-wallet{
+    width: 22vw;
+    font-weight: 500;
+    background-color: green;
+    border-color: white;
+    color: white;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    font-size: calc(1vh + 5px);
 }
-
-.App-link {
-  color: #61dafb;
+#send-funds{
+    margin-top: 2vh;
+    width: 25vw;
+    height: 6vh;
+    font-weight: 500;
+    background-color: red;
+    border-color: red;
+    margin-bottom: 1vh;
+    font-size: calc(1vh + 5px);
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#app-card{
+    justify-content: center;
+    align-items: center;
+    width: 60vw;
+    margin-top: 2vh;
+    text-align: center;
+}
+#app-topform{
+    width: 45vw;
+    color: black;
+}
+#app-bottomform{
+    margin-top: 2vh;
+    width: 45vw;
+    color: black;
+}
+#app-navbar{
+    background-color: green;
+}
+.connected-wallet-title{
+    font-weight: 600;
+    margin-top: 2vh;
+}
+#connected-wallet-address{
+    color: white;
+}
+.connected-wallet-balance{
+    font-weight: 300;
+}
+#logo{
+    color: white;
+    font-size: 3vh;
+    width: 20vh;
+}
+#button-nav{
+    font-size: 3vh;
+    width: 20vh;
+}
+#app-card-header{
+    width: 60vw;
+    color: grey;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#app-card-body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+#top-group{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#bottom-group{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#view-added-recipients{
+    margin-top: 2vh;
+    width: 25vw;
+    height: 6vh;
+    font-weight: 500;
+    background-color: grey;
+    border-color: grey;
+    margin-bottom: 2vh;
+    font-size: calc(1vh + 5px);
+}
+#modal-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#modal-foot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#transaction-modal{
+    min-width: 45vw;
+}
+.etheraddy{
+    font-size: calc(1vh + 5px);
 }

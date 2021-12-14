@@ -1,0 +1,90 @@
+#home {
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: green;
+    color: white;
+    justify-content: center;
+  }
+.title{
+    font-size: 10vh;
+    margin-bottom: 0;
+    animation: fadeIn ease 4s;
+}
+.description{
+    font-size: 2vh;
+    margin-bottom: 3vh;
+    animation: fadeIn ease 4s;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#enter-app{
+    width: 18vw;
+    height: 5vh;
+    font-weight: 500;
+    margin-bottom: 20vh;
+    animation: fadeIn ease 4s;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    font-size: calc(1vh + 5px);
+}
+
+.socialmedia-bar{
+    background-color: green;
+}
+a{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.instagramsocial:hover, .twittersocial:hover, .discordsocial:hover{
+    color: grey
+}
+.instagramsocial, .twittersocial, .discordsocial{
+    color: white;
+}
+#fast-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#scalable-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#dex-col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+#adjective-row{
+    animation: fadeIn ease 4s;
+}
+#powered-row{
+    margin-top: 10vh;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    
+    animation: fadeIn ease 4s;
+}
