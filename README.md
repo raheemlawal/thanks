@@ -1,9 +1,10 @@
 # Thanks!
 
-Thanks is a decentralized finance application powered by the Ethereum blockchain.
+Thanks is a decentralized finance application powered by the Ethereum blockchain. Easily send bulk transactions.
 
 ![Screenshot](a.png)
 ![Screenshot](b.png)
+![Screenshot](c.png)
 
 ## Requirements
 
@@ -12,7 +13,7 @@ Thanks is a decentralized finance application powered by the Ethereum blockchain
 
 ## Deployment
 
-Visit www.sendthanks.netlify.com
+Visit https://sendthanks.netlify.app/
 
 ## Built With
 
